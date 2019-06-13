@@ -1,0 +1,358 @@
+# a dict with effects, key is a number, 
+Effects = [
+    {
+        'name': 'Стан',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+    {
+        'name': 'Поджог',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+    {
+        'name': 'Ядовитый плевок',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+    {
+        'name': 'Слепота',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Рой насекомых',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+    {
+        'name': 'Миазмы',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Кошмарный сон',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Ледяной укус',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Корни',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Астральный паразит',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Смерть',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Чума',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Повреждение канала',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Оковы маны',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Проклятие',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Гнев природы',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Астральное безумие',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Ледяная тюрьма',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Амнезия',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Дрожь земли',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Истощение',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+    {
+        'name': 'Замешательство',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+    {
+        'name': 'Астральный демон',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Ожог души',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Кровотечение',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Пожиратель мозга',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Страх',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Кровавый камень',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Зацикленность',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Трупный яд',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Гипноз',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Обморожение',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Сжигание энергии',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Отречение',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Неугомонный бес',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Астральная белка',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Метка Дьявола',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Астральная мина',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Токсичная мина',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Энергетическая мина',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Пекло',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+    {
+        'name': 'Коррозия',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+    {
+        'name': 'Астральный блок',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Статическое напряжение',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Потеря силы',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Яйцо',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Червь',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Склероз',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Радиация',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Перелом',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Лепесток',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Укус',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Адская гончая',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Зов Смерти',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Разрушитель заклинаний',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Порок сердца',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Страшная рана',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Сделка',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Удушье',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Скелет',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Призрак',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Умертвие',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Обледенение',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+    {
+        'name': 'Чёрный Рой',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Рука вора',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+    {
+        'name': 'Неприязнь',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Ледяная пустошь',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Падение',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Уничтожение пространства',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+        {
+        'name': 'Бумеранг',
+        'type': 'debuf',
+        'is_dispell': True
+    },
+        {
+        'name': 'Увядание',
+        'type': 'debuf',
+        'is_dispell': False
+    },
+  ]
