@@ -355,4 +355,374 @@ Effects = [
         'type': 'debuf',
         'is_dispell': False
     },
+        {
+        'name': 'Медитация',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Бег',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Защита',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Левитация',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Броня',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Лечение',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Регенерация',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Открытие чакры',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Магический щит',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Кровавый ритуал',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Святилище',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Зеркало боли',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Исцеление',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Генератор маны',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Длань Бога',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Тяжелая броня',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Щит Харада',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Развеивание',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Чистка',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Каменный ёж',
+        'type': 'buf',
+        'is_dispell': True
+    },
+            {
+        'name': 'Крыло ворона',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Просветление',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Эхо',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Кровь Тролля',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Теневой клинок',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Тёмный договор',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Антимагия',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Укрепление',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Огонёк',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Желание',
+        'type': 'buf',
+        'is_dispell': True
+    },
+            {
+        'name': 'Контроль энергии',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Ярость Дракона',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Врата Вавилона',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Адские Врата',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Ангел Хранитель',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Падший Ангел',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Маскировка',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Формирование магии',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Энергетический мститель',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Вечность',
+        'type': 'buf',
+        'is_dispell': False
+    },
+            {
+        'name': 'Спринт',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Уклонение',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Фолиант мага',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Покой',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Астральный вихрь',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Блок',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Воздушный удар',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Анкил',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Астральное зелье',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Ливень',
+        'type': 'buf',
+        'is_dispell': True
+    },
+            {
+        'name': 'Капля',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Волшебный дар',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Сопротивление',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Каменный Змей',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Желудок Змея',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Кровавый доспех',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Кровосток',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Злобный разум',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Святость',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Каменный Дракон',
+        'type': 'buf',
+        'is_dispell': False
+    },
+            {
+        'name': 'Красный Дракон',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Синий Дракон',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Зеленый Дракон',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Черный Дракон',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Первая помощь',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Склянка',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Мешочек лепрекона',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Пламя2',
+        'type': 'buf',
+        'is_dispell': True
+    },
+           {
+        'name': 'Тёмная печать',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Светлая печать',
+        'type': 'buf',
+        'is_dispell': False
+    },
+            {
+        'name': 'Висп',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Абсолютная воля',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Гримуар',
+        'type': 'buf',
+        'is_dispell': False
+    },
+           {
+        'name': 'Отдых',
+        'type': 'buf',
+        'is_dispell': False
+    },
   ]
